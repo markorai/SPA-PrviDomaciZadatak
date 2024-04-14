@@ -1,4 +1,4 @@
-#Napisati rekurzivnu funkciju koja provjerava koliko zadati broj ima neparvnih cifara
+#Napisati rekurzivnu funkciju koja provjerava koliko zadati broj ima neparnih cifara
 def check_odd_digits(num):
   if num < 10:
     if num % 2 == 0:
@@ -11,4 +11,4 @@ def check_odd_digits(num):
   else:
     return 0 + check_odd_digits(num//10)
 
-check_odd_digits(101)
+print(check_odd_digits(1234))
